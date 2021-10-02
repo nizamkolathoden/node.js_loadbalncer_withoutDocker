@@ -6,7 +6,7 @@ const PORT = process.env.PORT
 
 if(!PORT){
     console.error("port is not defined");
-    console.log("define one")
+    console.lo
 }
 
 app.get("/",(req,res)=>{
