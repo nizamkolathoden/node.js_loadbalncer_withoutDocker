@@ -5,7 +5,8 @@ const app = express();
 const PORT = process.env.PORT
 
 if(!PORT){
-    console.error("port is not defined")
+    console.error("port is not defined");
+    console.log("define one")
 }
 
 app.get("/",(req,res)=>{
