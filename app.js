@@ -10,6 +10,7 @@ if(!PORT){
 
 app.get("/",(req,res)=>{
     res.send(`Hello from port : ${PORT} `)
+    console.log("wow cool")
 })
 
 app.listen(PORT,()=>console.log(`server running on Port ${PORT}`));
